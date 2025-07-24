@@ -1,5 +1,5 @@
 [project]
-name = "mcp-server-fetch"
+name = "mcp-fetch-sample"
 version = "0.6.3"
 description = "A Model Context Protocol server providing tools to fetch and convert web content for usage by LLMs"
 readme = "README.md"
@@ -26,7 +26,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-server-fetch = "mcp_server_fetch:main"
+mcp-fetch-sample = "mcp_server_fetch:main"
 
 [build-system]
 requires = ["hatchling"]
